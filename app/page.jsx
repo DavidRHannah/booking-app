@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <>
       <Heading title="Room Availability" />
-      {rooms.length > 0 ? (
+      { rooms.length > 0 ? (
         rooms.map((room) => <RoomCard room={room} />)
-      ) : (<p>No rooms available at the moment</p>)}
+      ) : (<p>No rooms available at the moment</p>) }
     </>
   );
 }
